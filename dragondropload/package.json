@@ -1,0 +1,26 @@
+{
+  "name": "dragondropload",
+  "version": "1.0.0",
+  "description": "Drag and drop upload",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "MikeTheFox"
+  },
+  "keywords": [
+    "drag",
+    "drop",
+    "multiform",
+    "server",
+    "nodejs",
+    "html5"
+  ],
+  "author": "MikeTheFox",
+  "license": "ISC",
+   "dependencies" : { 
+	"formidable" : "latest"
+  }
+}
