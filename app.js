@@ -2,7 +2,7 @@
 // Runs this script with node when clicked on in windows...
 if (this["WScript"]) {
 	var args = [];
-	if (WScript.Arguments.length !== 0) for (var i = 0; i < WScript.Arguments.length; i++) args.push(WScript.Arguments(i));
+	for (var i = 0; i < WScript.Arguments.length; i++) args.push(WScript.Arguments(i));
 	WScript.Quit(WScript.CreateObject('WScript.Shell').Run("node \"" + WScript.ScriptFullName + "\"" + (args.length ? (" \"" + args.join("\" \"") + "\"") : ""), 10, true));
 }
 
